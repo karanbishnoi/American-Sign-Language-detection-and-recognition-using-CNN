@@ -22,3 +22,6 @@ Tasks:
 
 ## 3 - Results
 A functional real time vision based American Sign Language recognition for the deaf and dumb people have been developed for english alphabets. We achieved final accuracy of 99.86% on our dataset. This way we are able to detect almost all the symbols provided that they are shown properly, given there is no noise in the background and lighting is adequate
+
+## 4 - DataSet
+The network was trained on self generated dataset which was created using ASL_data_generation.ipynb file. The dataset contains 24 Alphabets excluding 'J' and 'Z' as they can be only recognized using vedio not image and 3 more added symbols Space, Delete, Nothing
